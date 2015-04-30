@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD894EAD1AF1D70300614FA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD894EAC1AF1D70300614FA6 /* main.m */; };
+		BD894EB01AF1D70300614FA6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD894EAF1AF1D70300614FA6 /* AppDelegate.m */; };
+		BD894EB31AF1D70300614FA6 /* HellenWheel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BD894EB11AF1D70300614FA6 /* HellenWheel.xcdatamodeld */; };
+		BD894EB61AF1D70300614FA6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BD894EB51AF1D70300614FA6 /* ViewController.m */; };
+		BD894EB91AF1D70300614FA6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD894EB71AF1D70300614FA6 /* Main.storyboard */; };
+		BD894EBB1AF1D70300614FA6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD894EBA1AF1D70300614FA6 /* Images.xcassets */; };
+		BD894EBE1AF1D70300614FA6 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD894EBC1AF1D70300614FA6 /* LaunchScreen.xib */; };
+		BD894ECA1AF1D70300614FA6 /* HellenWheelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD894EC91AF1D70300614FA6 /* HellenWheelTests.m */; };
+		BD894ED51AF2010F00614FA6 /* HBWheel.xib in Resources */ = {isa = PBXBuildFile; fileRef = BD894ED41AF2010F00614FA6 /* HBWheel.xib */; };
+		BD894ED81AF2025600614FA6 /* HBWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = BD894ED71AF2025600614FA6 /* HBWheel.m */; };
+		BD894EDB1AF22F8100614FA6 /* HBWheelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BD894EDA1AF22F8100614FA6 /* HBWheelButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD894EC41AF1D70300614FA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BD894E9F1AF1D70300614FA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD894EA61AF1D70300614FA6;
+			remoteInfo = HellenWheel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BD894EA71AF1D70300614FA6 /* HellenWheel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HellenWheel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD894EAB1AF1D70300614FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD894EAC1AF1D70300614FA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD894EAE1AF1D70300614FA6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD894EAF1AF1D70300614FA6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD894EB21AF1D70300614FA6 /* HellenWheel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HellenWheel.xcdatamodel; sourceTree = "<group>"; };
+		BD894EB41AF1D70300614FA6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BD894EB51AF1D70300614FA6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BD894EB81AF1D70300614FA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD894EBA1AF1D70300614FA6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BD894EBD1AF1D70300614FA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BD894EC31AF1D70300614FA6 /* HellenWheelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HellenWheelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD894EC81AF1D70300614FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD894EC91AF1D70300614FA6 /* HellenWheelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HellenWheelTests.m; sourceTree = "<group>"; };
+		BD894ED41AF2010F00614FA6 /* HBWheel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HBWheel.xib; sourceTree = "<group>"; };
+		BD894ED61AF2025600614FA6 /* HBWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBWheel.h; sourceTree = "<group>"; };
+		BD894ED71AF2025600614FA6 /* HBWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBWheel.m; sourceTree = "<group>"; };
+		BD894ED91AF22F8100614FA6 /* HBWheelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBWheelButton.h; sourceTree = "<group>"; };
+		BD894EDA1AF22F8100614FA6 /* HBWheelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBWheelButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD894EA41AF1D70300614FA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD894EC01AF1D70300614FA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD894E9E1AF1D70300614FA6 = {
+			isa = PBXGroup;
+			children = (
+				BD894EA91AF1D70300614FA6 /* HellenWheel */,
+				BD894EC61AF1D70300614FA6 /* HellenWheelTests */,
+				BD894EA81AF1D70300614FA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD894EA81AF1D70300614FA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD894EA71AF1D70300614FA6 /* HellenWheel.app */,
+				BD894EC31AF1D70300614FA6 /* HellenWheelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD894EA91AF1D70300614FA6 /* HellenWheel */ = {
+			isa = PBXGroup;
+			children = (
+				BD894ED31AF200EF00614FA6 /* view */,
+				BD894EAE1AF1D70300614FA6 /* AppDelegate.h */,
+				BD894EAF1AF1D70300614FA6 /* AppDelegate.m */,
+				BD894EB41AF1D70300614FA6 /* ViewController.h */,
+				BD894EB51AF1D70300614FA6 /* ViewController.m */,
+				BD894EB71AF1D70300614FA6 /* Main.storyboard */,
+				BD894EBA1AF1D70300614FA6 /* Images.xcassets */,
+				BD894EBC1AF1D70300614FA6 /* LaunchScreen.xib */,
+				BD894EB11AF1D70300614FA6 /* HellenWheel.xcdatamodeld */,
+				BD894EAA1AF1D70300614FA6 /* Supporting Files */,
+			);
+			path = HellenWheel;
+			sourceTree = "<group>";
+		};
+		BD894EAA1AF1D70300614FA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD894EAB1AF1D70300614FA6 /* Info.plist */,
+				BD894EAC1AF1D70300614FA6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD894EC61AF1D70300614FA6 /* HellenWheelTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD894EC91AF1D70300614FA6 /* HellenWheelTests.m */,
+				BD894EC71AF1D70300614FA6 /* Supporting Files */,
+			);
+			path = HellenWheelTests;
+			sourceTree = "<group>";
+		};
+		BD894EC71AF1D70300614FA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD894EC81AF1D70300614FA6 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BD894ED31AF200EF00614FA6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				BD894ED41AF2010F00614FA6 /* HBWheel.xib */,
+				BD894ED61AF2025600614FA6 /* HBWheel.h */,
+				BD894ED71AF2025600614FA6 /* HBWheel.m */,
+				BD894ED91AF22F8100614FA6 /* HBWheelButton.h */,
+				BD894EDA1AF22F8100614FA6 /* HBWheelButton.m */,
+			);
+			name = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD894EA61AF1D70300614FA6 /* HellenWheel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD894ECD1AF1D70300614FA6 /* Build configuration list for PBXNativeTarget "HellenWheel" */;
+			buildPhases = (
+				BD894EA31AF1D70300614FA6 /* Sources */,
+				BD894EA41AF1D70300614FA6 /* Frameworks */,
+				BD894EA51AF1D70300614FA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HellenWheel;
+			productName = HellenWheel;
+			productReference = BD894EA71AF1D70300614FA6 /* HellenWheel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BD894EC21AF1D70300614FA6 /* HellenWheelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD894ED01AF1D70300614FA6 /* Build configuration list for PBXNativeTarget "HellenWheelTests" */;
+			buildPhases = (
+				BD894EBF1AF1D70300614FA6 /* Sources */,
+				BD894EC01AF1D70300614FA6 /* Frameworks */,
+				BD894EC11AF1D70300614FA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD894EC51AF1D70300614FA6 /* PBXTargetDependency */,
+			);
+			name = HellenWheelTests;
+			productName = HellenWheelTests;
+			productReference = BD894EC31AF1D70300614FA6 /* HellenWheelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD894E9F1AF1D70300614FA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = bottle;
+				TargetAttributes = {
+					BD894EA61AF1D70300614FA6 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					BD894EC21AF1D70300614FA6 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = BD894EA61AF1D70300614FA6;
+					};
+				};
+			};
+			buildConfigurationList = BD894EA21AF1D70300614FA6 /* Build configuration list for PBXProject "HellenWheel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD894E9E1AF1D70300614FA6;
+			productRefGroup = BD894EA81AF1D70300614FA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD894EA61AF1D70300614FA6 /* HellenWheel */,
+				BD894EC21AF1D70300614FA6 /* HellenWheelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD894EA51AF1D70300614FA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD894EB91AF1D70300614FA6 /* Main.storyboard in Resources */,
+				BD894EBE1AF1D70300614FA6 /* LaunchScreen.xib in Resources */,
+				BD894EBB1AF1D70300614FA6 /* Images.xcassets in Resources */,
+				BD894ED51AF2010F00614FA6 /* HBWheel.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD894EC11AF1D70300614FA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD894EA31AF1D70300614FA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD894EB01AF1D70300614FA6 /* AppDelegate.m in Sources */,
+				BD894EAD1AF1D70300614FA6 /* main.m in Sources */,
+				BD894ED81AF2025600614FA6 /* HBWheel.m in Sources */,
+				BD894EDB1AF22F8100614FA6 /* HBWheelButton.m in Sources */,
+				BD894EB61AF1D70300614FA6 /* ViewController.m in Sources */,
+				BD894EB31AF1D70300614FA6 /* HellenWheel.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD894EBF1AF1D70300614FA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD894ECA1AF1D70300614FA6 /* HellenWheelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD894EC51AF1D70300614FA6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD894EA61AF1D70300614FA6 /* HellenWheel */;
+			targetProxy = BD894EC41AF1D70300614FA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BD894EB71AF1D70300614FA6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD894EB81AF1D70300614FA6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD894EBC1AF1D70300614FA6 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD894EBD1AF1D70300614FA6 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD894ECB1AF1D70300614FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BD894ECC1AF1D70300614FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD894ECE1AF1D70300614FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HellenWheel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD894ECF1AF1D70300614FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HellenWheel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BD894ED11AF1D70300614FA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HellenWheelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HellenWheel.app/HellenWheel";
+			};
+			name = Debug;
+		};
+		BD894ED21AF1D70300614FA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HellenWheelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HellenWheel.app/HellenWheel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD894EA21AF1D70300614FA6 /* Build configuration list for PBXProject "HellenWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD894ECB1AF1D70300614FA6 /* Debug */,
+				BD894ECC1AF1D70300614FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD894ECD1AF1D70300614FA6 /* Build configuration list for PBXNativeTarget "HellenWheel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD894ECE1AF1D70300614FA6 /* Debug */,
+				BD894ECF1AF1D70300614FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BD894ED01AF1D70300614FA6 /* Build configuration list for PBXNativeTarget "HellenWheelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD894ED11AF1D70300614FA6 /* Debug */,
+				BD894ED21AF1D70300614FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BD894EB11AF1D70300614FA6 /* HellenWheel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BD894EB21AF1D70300614FA6 /* HellenWheel.xcdatamodel */,
+			);
+			currentVersion = BD894EB21AF1D70300614FA6 /* HellenWheel.xcdatamodel */;
+			path = HellenWheel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BD894E9F1AF1D70300614FA6 /* Project object */;
+}
