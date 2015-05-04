@@ -9,6 +9,8 @@
 #import "ViewController.h"
 #import "HBWheel.h"
 @interface ViewController ()
+- (IBAction)start;
+- (IBAction)end;
 
 @property (nonatomic,weak) HBWheel *wheel;
 @end
@@ -27,5 +29,11 @@
     
 }
 
+- (IBAction)start {
+    [self.wheel startRotate];
+}
 
+- (IBAction)end {
+    [self.wheel stopRotate];
+}
 @end

@@ -24,6 +24,9 @@
                     <state key="normal" image="LuckyCenterButton">
                         <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                     </state>
+                    <connections>
+                        <action selector="startChoose" destination="dD7-Lc-b9o" eventType="touchUpInside" id="Gz9-30-yDm"/>
+                    </connections>
                 </button>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -31,7 +34,7 @@
             <connections>
                 <outlet property="rotateView" destination="WVu-dV-pNl" id="GpK-6n-3SG"/>
             </connections>
-            <point key="canvasLocation" x="325" y="328"/>
+            <point key="canvasLocation" x="-188" y="155"/>
         </view>
     </objects>
     <resources>

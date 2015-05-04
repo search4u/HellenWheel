@@ -11,5 +11,7 @@
 @interface HBWheel : UIView
 
 + (instancetype)wheel;
+- (void)startRotate;
+- (void)stopRotate;
 
 @end
